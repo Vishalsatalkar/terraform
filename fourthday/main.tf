@@ -3,6 +3,6 @@ resource "aws_instance" "name" {
     instance_type = "t3.small"
     subnet_id = "subnet-09ef347f52ddba662"
     tags = {
-      Name = "my-server-1"
+      Name = "my-server"
     }
 }
